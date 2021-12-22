@@ -12,6 +12,6 @@ export class HomeComponent {
     }
 
     ngOnInit() {
-        console.log('Se ha cargado el componente HomeComponent!')
+        // console.log('Se ha cargado el componente HomeComponent!')
     }
 }

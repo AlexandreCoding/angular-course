@@ -1,5 +1,5 @@
 <div id="content" class="col-lg-10 col-lg-offset-1">
-  <header id="header" class="col-lg-12">
+  <header id="header" class="col-lg-12" [style.background]="header_color">
     <h1>{{ title }}</h1>
   </header>
   <nav id="nav" class="col-lg-12 clearfix">
@@ -17,7 +17,11 @@
           >Productos</a
         >
       </li>
-      <li><a href="#" [routerLinkActive]="['activado']">Crear productos</a></li>
+      <li>
+        <a [routerLink]="['/crear-producto']" [routerLinkActive]="['activado']"
+          >Crear productos</a
+        >
+      </li>
     </ul>
   </nav>
   <section id="main" class="col-lg-12">

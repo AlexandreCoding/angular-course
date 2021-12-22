@@ -72,9 +72,31 @@
   padding-top: 15px;
   border-top: 1px solid #eee;
   color: gray;
-  /* display: grid; */
 }
 
-/* #footer p {
-  justify-self: center;
-} */
+#form-producto label {
+  margin-top: 10px;
+}
+
+.badge {
+  background: red;
+}
+
+.imagen_container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.producto_imagen {
+  height: 160px;
+  margin: 0px auto;
+  display: block;
+}
+
+.imagen_relleno {
+  background: #ccc;
+  width: 120px;
+  height: 160px;
+  margin: 0px auto;
+  display: block;
+}
